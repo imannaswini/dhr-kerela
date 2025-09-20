@@ -1,7 +1,7 @@
 
 # Kerala Migrant Health  (Frontend)
 
-`pravasi-swasthya` is the frontend for a digital platform designed to manage health records for migrant workers in Kerala. It aims to bridge the gap in healthcare access, improve public health surveillance, and ensure equitable medical services for all.
+the frontend for a digital platform designed to manage health records for migrant workers in Kerala. It aims to bridge the gap in healthcare access, improve public health surveillance, and ensure equitable medical services for all.
 
 -----
 
