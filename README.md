@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Of course. Here is a comprehensive `README.md` file for your project that includes all the necessary details and installation commands.
+
+-----
+
+# Kerala Migrant Health - `pravasi-swasthya` (Frontend)
+
+`pravasi-swasthya` is the frontend for a digital platform designed to manage health records for migrant workers in Kerala. It aims to bridge the gap in healthcare access, improve public health surveillance, and ensure equitable medical services for all.
+
+-----
+
+## Core Features
+
+This application features three distinct portals tailored to the specific needs of each user group:
+
+  * Government Portal: An administrative dashboard for officials to manage health centers, broadcast alerts, generate reports, and view analytics.
+  * Hospital Portal: A comprehensive interface for hospital staff to register new workers, manage patient records (CRUD), view alerts, and print health IDs.
+  * Worker Portal: A personal and secure dashboard for migrant workers to view their digital health ID card, check medical history, and find nearby health centers.
+
+-----
+
+## Tech Stack & Libraries
+
+This project is a modern, responsive web application built with the following technologies:
+
+  * **Framework**: Next.js (with App Router)
+  * **Language**: TypeScript
+  * **Styling**: Tailwind CSS
+
+### Key Libraries Installed
+
+  * **`lucide-react`**: A comprehensive and lightweight icon library.
+  * **`recharts`**: A composable charting library for creating data visualizations.
+  * **`react-hot-toast`**: Provides simple and elegant pop-up notifications for user feedback.
+  * **`html-to-image`**: A utility to convert DOM nodes into downloadable images (used for the Health ID card).
+
+-----
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get the project up and running on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You need to have **Node.js** (version 18.x or higher) and **npm** installed on your computer.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone the repository:**
 
-## Learn More
+    ```bash
+    git clone <your-repository-url>
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Navigate to the project directory:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    cd frontend
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Install all dependencies:**
+    This single command will install Next.js, React, Tailwind CSS, and all the libraries listed above.
 
-## Deploy on Vercel
+    ```bash
+    npm install lucide-react recharts react-hot-toast html-to-image
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4.  **Run the development server:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm run dev
+    ```
+
+5.  **Open the application:**
+    Open your browser and navigate to **[http://localhost:3000](https://www.google.com/search?q=http://localhost:3000)**.
+
+-----
+
+## Next Steps & Future Development
+
+While the frontend prototype is comprehensive, the following steps are required to make it a production-ready application:
+
+  * **Backend Integration**: Connect the frontend to a secure backend API and database.
+  * **Authentication**: Implement a robust authentication system with JWT and protected routes.
+  * **Global State Management**: Use a tool like React Context or Zustand to manage the logged-in user's state.
+  * **API Data Fetching**: Replace all mock data with real API calls using a library like TanStack Query.
